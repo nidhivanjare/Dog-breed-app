@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Golden_Retriever">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="20dp"
+        android:text="GS PIT BULL"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/d6"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Weight Range:
+Male: 30-80 lbs.
+Female: 30-80 lbs.
+Height at Withers:
+Male: 19 in.
+Female: 18 in."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Coat:
+Length: Short
+Characteristics: Flat
+Colors: Any color
+Overall Grooming Needs: Low"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The pit bull has a low center of gravity, and appears slightly longer than tall. The muscles of the neck and head are especially well developed."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:text="@string/https_www_hillspet_com_dog_care_dog_breeds_american_pit_bull_terrier"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

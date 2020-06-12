@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "178654264568",
+    "firebase_url": "https://dog-breed-395a3.firebaseio.com",
+    "project_id": "dog-breed-395a3",
+    "storage_bucket": "dog-breed-395a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178654264568:android:49729c277ea9f699620f0d",
+        "android_client_info": {
+          "package_name": "com.example.dog_breed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178654264568-trpvlgjf52v9osim2d6hng12msirqmpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoE70b7lngMpQxjVUEw4ncMKn2eAXM5rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178654264568-trpvlgjf52v9osim2d6hng12msirqmpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

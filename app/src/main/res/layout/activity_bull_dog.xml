@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Golden_Retriever">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="20dp"
+        android:text="BULL DOG"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/d2"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="HEIGHT: 14 to 15 inches at the shoulder
+WEIGHT: 40 to 50 pounds
+COAT: Straight, short, fine-textured, smooth, and glossy"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="COLOR: Red, white, fawn, or fallow (pale brown), or any combination of these colors, with or without such patterns and markings as brindle, piebald, ticking, black masks, or black tipping
+LIFE EXPECTANCY: 8 to 10 years"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Bulldogs are extremely popular in both England and North America."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:text="@string/https_dogtime_com_dog_breeds_bulldog"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dog-Breed</string>
+    <string name="https_dogtime_com_dog_breeds_siberian_husky">https://dogtime.com/dog-breeds/siberian-husky</string>
+    <string name="https_www_akc_org_dog_breeds_german_spitz">https://www.akc.org/dog-breeds/german-spitz/</string>
+    <string name="https_www_thesprucepets_com_goldendoodle_dog_breed_profile_4169836">https://www.thesprucepets.com/goldendoodle-dog-breed-profile-4169836</string>
+    <string name="https_www_hillspet_com_dog_care_dog_breeds_american_pit_bull_terrier">https://www.hillspet.com/dog-care/dog-breeds/american-pit-bull-terrier</string>
+    <string name="https_dogtime_com_dog_breeds_bulldog">https://dogtime.com/dog-breeds/bulldog</string>
+    <string name="https_www_akc_org_dog_breeds_golden_retriever">https://www.akc.org/dog-breeds/golden-retriever/</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Golden_Retriever">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="20dp"
+        android:text="GOLDEN RETRIEVER"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/d1"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="AKC Breed Popularity: Ranks 3 of 195
+Height: 23-24 inches (male), 21.5-22.5 inches (female)"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="
+Weight: 65-75 pounds (male), 55-65 pounds (female)
+Life Expectancy: 10-12 years"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The Golden Retriever, an exuberant Scottish gundog of great beauty, stands among America’s most popular dog breeds. "
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:text="@string/https_www_akc_org_dog_breeds_golden_retriever"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

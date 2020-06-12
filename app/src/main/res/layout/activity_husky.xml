@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Golden_Retriever">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="20dp"
+        android:text="HUSKY"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/d4"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Weight‎: ‎35 to 60 pounds	Life Span‎: ‎12 to 15 years
+Height‎: ‎20 to 23 inches tall at the shoulder"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The Siberian Husky is a beautiful dog breed with a thick coat that comes in a multitude of colors and markings. Their blue or multi-colored eyes and striking facial masks only add to the appeal of this breed, which originated in Siber."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:text="@string/https_dogtime_com_dog_breeds_siberian_husky"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

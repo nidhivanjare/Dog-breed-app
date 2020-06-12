@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".Golden_Retriever">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="10dp"
+        android:text="GERMAN SPITZ"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        ></TextView>
+
+    <ImageView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/d3"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="GROUP: Non-Sporting
+WEIGHT: Weight corresponds to size; about 25 to 40 pounds
+HEIGHT: Klein: 9 to 11.5 inches tall at the shoulder; Mittel: 12 to 15 inches tall"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="COAT: A straight and stand-off outer coat paired with a short, soft, dense undercoat
+COAT COLOR: All colors and markings
+LIFE EXPECTANCY: 13 to 15 years"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The German Spitz is a small to medium-sized, fluffy companion breed that hails from Germany"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:autoLink="web"
+        android:text="@string/https_www_akc_org_dog_breeds_german_spitz"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"></TextView>
+
+
+</LinearLayout>

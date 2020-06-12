@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="10"
+    tools:context="MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="150dp"
+        android:text="LOGIN HERE"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/emailId1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/sign_in1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="SIGN IN"
+        android:textSize="25dp"></Button>
+
+    <TextView
+        android:id="@+id/sign_up1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DO NOT HAVE AN ACCOUNT? SIGN UP !"
+        android:textColor="@android:color/black"
+        android:textSize="19sp">
+
+    </TextView>
+
+
+</LinearLayout>
