@@ -1,5 +1,5 @@
 # Dog-breed-app
-firebase email autherntication 
+firebase email autherntication and
 android gird layout and card layout
 
 
